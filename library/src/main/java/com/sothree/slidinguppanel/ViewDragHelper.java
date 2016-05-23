@@ -103,8 +103,8 @@ public class ViewDragHelper {
 
     private static final int EDGE_SIZE = 20; // dp
 
-    private static final int BASE_SETTLE_DURATION = 256; // ms
-    private static final int MAX_SETTLE_DURATION = 600; // ms
+    private static final int BASE_SETTLE_DURATION = 50; // ms was 256
+    private static final int MAX_SETTLE_DURATION = 50; // ms was 600
 
     // Current drag state; idle, dragging or settling
     private int mDragState;
